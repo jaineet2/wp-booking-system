@@ -148,3 +148,4 @@ function wbs_count_slot_bookings($date, $time) {
     $bookings = get_posts($args);
     return count($bookings);
 }
+sdszdf
