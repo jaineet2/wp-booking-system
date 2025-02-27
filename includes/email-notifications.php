@@ -89,3 +89,4 @@ function wbs_send_booking_cancellation($booking_id) {
         $headers
     );
 }
+
