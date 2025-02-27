@@ -1,0 +1,23 @@
+wp-booking-system/
+├── wp-booking-system.php              # Main plugin file
+├── includes/
+│   ├── functions.php                  # Core functions
+│   ├── acf-fields.php                # ACF field definitions
+│   ├── woocommerce-integration.php    # WooCommerce related functions
+│   ├── availability.php              # Availability checking functions
+│   ├── email-notifications.php       # Email handling functions
+│   └── ajax-handlers.php             # AJAX processing functions
+├── assets/
+│   ├── css/
+│   │   ├── admin-style.css           # Admin styles
+│   │   └── frontend-style.css        # Frontend styles
+│   ├── js/
+│   │   ├── admin-script.js           # Admin JavaScript
+│   │   └── frontend-script.js        # Frontend JavaScript
+│   └── img/
+└── templates/
+    ├── booking-form.php              # Booking form template
+    ├── calendar-view.php             # Calendar display template
+    └── email/
+        ├── booking-confirmation.php   # Customer confirmation email
+        └── admin-notification.php     # Admin notification email
