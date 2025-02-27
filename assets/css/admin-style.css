@@ -1,0 +1,86 @@
+/* Booking Settings Page */
+.wbs-settings-page {
+    max-width: 800px;
+    margin: 20px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.wbs-settings-section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.wbs-settings-section:last-child {
+    border-bottom: none;
+}
+
+/* Booking List Table */
+.column-booking_date,
+.column-booking_time,
+.column-customer_name,
+.column-booking_status {
+    width: 15%;
+}
+
+.column-booking_actions {
+    width: 120px;
+}
+
+.booking-status {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.booking-status.confirmed {
+    background: #dff0d8;
+    color: #3c763d;
+}
+
+.booking-status.pending {
+    background: #fcf8e3;
+    color: #8a6d3b;
+}
+
+.booking-status.cancelled {
+    background: #f2dede;
+    color: #a94442;
+}
+
+/* Calendar View */
+.wbs-calendar {
+    margin: 20px 0;
+}
+
+.wbs-calendar .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.wbs-calendar .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.wbs-calendar .calendar-day {
+    padding: 10px;
+    min-height: 100px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.wbs-calendar .calendar-day.has-bookings {
+    background: #f7f7f7;
+}
+
+.wbs-calendar .calendar-day.today {
+    border-color: #0073aa;
+}
