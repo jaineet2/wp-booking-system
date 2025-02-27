@@ -1,0 +1,52 @@
+.wbs-booking-form {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.wbs-booking-form .form-group {
+    margin-bottom: 1.5em;
+}
+
+.wbs-booking-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+.wbs-booking-form .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.wbs-booking-form select.form-control {
+    height: 40px;
+}
+
+.wbs-booking-form textarea.form-control {
+    height: 100px;
+}
+
+.wbs-booking-form .submit-booking {
+    width: 100%;
+    padding: 12px;
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.wbs-booking-form .submit-booking:hover {
+    background: #005177;
+}
+
+.wbs-booking-form .submit-booking:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
