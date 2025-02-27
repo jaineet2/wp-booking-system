@@ -66,4 +66,3 @@ function wbs_handle_order_status_change($order_id, $old_status, $new_status, $or
             break;
     }
 }
-
